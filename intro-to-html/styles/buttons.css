@@ -1,0 +1,108 @@
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  /* height: 36px;
+width: 105px; 最好不要强制指定其宽高,使用其padding进行填充是最好的*/
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* padding: 10px 16px 10px 16px; 上右下左 */
+  border-radius: 2px;
+  cursor: pointer; /*鼠标移动上去变为手指指针*/
+  margin-right: 8px;
+  transition: opacity 0.15s, padding 0.15s; /*平滑过渡*/
+  vertical-align: top;
+}
+.subscribe-button:hover {
+  /*鼠标放到上面显示什么样式*/
+  opacity: 0.8; /*不透明度*/
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.subscribe-button:active {
+  /*鼠标点击显示什么样式*/
+  opacity: 0.5;
+}
+.join-button {
+  background-color: white;
+  border-color: rgb(53, 122, 205);
+  border-width: 1px;
+  border-style: solid;
+  color: rgb(53, 122, 205);
+  /* height: 36px;
+width: 62px; */
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 2px;
+  cursor: pointer;
+  vertical-align: top;
+  transition: background-color 0.15s, color 0.15s, padding 0.15s;
+}
+.join-button:hover {
+  background-color: rgb(53, 122, 205);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.join-button:active {
+  opacity: 0.7;
+}
+.tweet-button {
+  background-color: rgb(2, 158, 255);
+  color: white;
+  border: none;
+  /* height: 36px;
+width: 74px; */
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box=shadow 0.15s;
+  vertical-align: top;
+}
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.tweet-button:active {
+  box-shadow: none;
+  margin-left: 13px;
+  margin-top: 5px;
+}
+.uber-button {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 36px;
+  width: 107px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.amazon-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  height: 36px;
+  width: 200px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+}
+.github-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  width: 108px;
+  height: 36px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
